@@ -45,7 +45,9 @@ li:hover {
     font-size: 2.5rem;
     border-radius: 10px;
     border: none;
-    box-shadow: 1px 1px 5px cornsilk ;
+    /* box-shadow: 1px 1px 5px cornsilk ; */
+ 
+    box-shadow: 1px 1px 5px 5px rgba(255, 248, 220, 0.616);
     background: rgb(58, 98, 107);
     color: cornsilk;
     padding: 10px;
