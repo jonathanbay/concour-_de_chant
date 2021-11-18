@@ -1,38 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/form.css">
-    
-    
+    <title>Inscription</title>
+    <link rel="stylesheet" href="./style/form.css"> 
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <img src="./media/longuenesse-logo-remove.png" alt="logo" class="logo">
-            
-            <ul>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">S'inscrire</a></li>
-                <li><a href="#">Se connecter</a></li>         
-            </ul>
-        </nav>
-    </header>
+    <?php
+        include('./template/header.php');
+    ?>
 
     <div class="imageLogin">
         <img src="./media/microphone.jpg" alt="micro" class="bglogin"> 
     </div>
    
     <div class="conteneurFormulaire">
-
-    
         <h2>inscription</h2>
     
-        <form action="action.php" method="post" class="formulaire">
+        <form action="connexion.php" method="post" class="formulaire">
      
             <input type="text" name="nom" placeholder="Nom" required pattern="^[A-Za-z '-]+$" maxlength="20">
 
@@ -46,11 +35,13 @@
 
             <input type="password" name="password2" placeholder="Confirmer mot de passe" required="required">
 
-            <button type="submit">Valider</button>
+            <button class="button" type="submit">Valider</button>
 
         </form>
-
     </div>
+    <?php
+        include('./template/footer.php');
+    ?>
     
 </body>
 </html>

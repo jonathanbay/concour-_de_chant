@@ -4,32 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concour de chant</title>
-    <link rel="stylesheet" href="./style/accueil.css">
+    <title>footer</title>
+    <link rel="stylesheet" href="./style/footer.css">
     <script src="https://kit.fontawesome.com/1cbf56d12a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <img src="./media/longuenesse-logo-remove.png" alt="logo" class="logo">
-            
-            <ul>
-                <li><a href="#">Info</a></li>
-                <li><a href="#">S'inscrire</a></li>
-                <li><a href="#">Se connecter</a></li>         
-            </ul>
-        </nav>
-    </header>
-
-    <div class="slide">
-        <img src="./media/concert1.jpg" alt="concert" class="imagebg"> 
-    </div>
-
-    <a href="login.html"><input type="button" value=" inscription " class="btinscription"></a>
-    
-    
-        
-    <footer>
+<footer>
         <h2 class="titre">Contact</h2>
         <div class="contact">
             
