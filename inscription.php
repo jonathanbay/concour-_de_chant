@@ -1,3 +1,12 @@
+
+<?php
+$cookie_name = "user";
+$cookie_value = "root";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,6 +19,14 @@
 </head>
 
 <body>
+<?php
+  if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+    } else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+  }
+?>
     <?php
         include('./template/header.php');
     ?>
@@ -17,31 +34,11 @@
     <div class="imageLogin">
         <img src="./media/microphone.jpg" alt="micro" class="bglogin"> 
     </div>
-   
-    <div class="conteneurFormulaire">
-        <h2>inscription</h2>
-    
-        <form action="connexion.php" method="post" class="formulaire">
-     
-            <input type="text" name="nom" placeholder="Nom" required pattern="^[A-Za-z '-]+$" maxlength="20">
-
-            <input type="text" name="prenom" placeholder="Prenom" required pattern="^[A-Za-z '-]+$" maxlength="20">
-
-            <input type="text" name="email" placeholder="E-mail" required pattern="^[A-Za-z]+@{1}[A-Za-z]+\.{1}[A-Za-z]{2,}$">
-
-            <input type="date" name="dateNaissance" placeholder="Date de naissance" required="required">
-
-            <input type="password" name="password1" placeholder="Mot de passe" required="required">
-
-            <input type="password" name="password2" placeholder="Confirmer mot de passe" required="required">
-
-            <button class="button" type="submit">Valider</button>
-
-        </form>
-    </div>
+ 
     <?php
+        include './template/formIns.php';
         include('./template/footer.php');
     ?>
-    
+
 </body>
 </html>

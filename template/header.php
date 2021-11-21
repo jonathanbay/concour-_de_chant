@@ -17,8 +17,8 @@
             
             <ul>
                 <li><a href="#">Info</a></li>
-                <li><a href="#">S'inscrire</a></li>
-                <li><a href="#">Se connecter</a></li>         
+                <li><a href="inscription.php">S'inscrire</a></li>
+                <li><a href="seConnecter.php">Se connecter</a></li>         
             </ul>
         </nav>
     </header>

@@ -1,0 +1,46 @@
+.texteValidationInscription {
+    color: cornsilk;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.mail{
+    color: cornsilk;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.mdp{
+    color: cornsilk;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.incorrect{
+    color: cornsilk;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+}
+.mdpFalse{
+    color: cornsilk;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    text-align: center;
+}

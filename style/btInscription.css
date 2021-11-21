@@ -1,10 +1,10 @@
 
-.btinscription {
+/*.btInscription {
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 50%;
-    /* transform: translate(-50%, -50%);  */
-     font-size: 2rem;
+    /* transform: translate(-50%, -50%);  
+    font-size: 2rem;
     border-radius: 10px;
     border: none;
     box-shadow: 1px 1px 5px 5px rgba(255, 248, 220, 0.616);
@@ -12,7 +12,7 @@
     color: cornsilk;
     padding: 10px;
 }
-.btinscription:hover{
+.btInscription:hover{
     transform: scale(1.03);
     cursor: pointer;
-}
+}*/
